@@ -10,3 +10,5 @@ class UserForm(forms.ModelForm):
             'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Enter Email'}),
             'password': forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Enter Password'}),
         }
+
+#made by abdul rehman
